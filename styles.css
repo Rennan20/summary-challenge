@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: fit-content;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+main {
+  background-color: #fff;
+  max-width: 416px;
+  border-radius: 1rem;
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+main section h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: hsl(223, 47%, 23%);
+}
+
+main section span {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-weight: 100;
+}
+
+main img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+main .plan {
+  color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5 rem 1rem;
+  margin: 2rem 0;
+}
+
+main .plan .icon {
+  display: flex;
+  align-items: center;
+}
+
+main .plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+main .plan .price {
+  color: hsl(223, 47%, 23%);
+  display: flex;
+  flex-direction: column;
+}
+
+main .plan .price span {
+  font-weight: normal;
+}
+
+main .plan img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+main a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+main a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+main button {
+  cursor: pointer;
+  background: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+  transition: background 0.3s;
+}
+
+main button:hover {
+  background: hsl(225, 95%, 70%);
+}
+
+#cancel {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  color: hsl(224, 23%, 55%);
+  transition: color 0.3s;
+}
+
+#cancel:hover {
+  color: hsl(245, 75%, 52%);
+}
+
+.coded {
+  background-color: hsl(223, 47%, 23%);
+  color: #fff;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+}
+
+.coded a {
+  color: black;
+}
